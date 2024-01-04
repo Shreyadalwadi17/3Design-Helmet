@@ -2,7 +2,7 @@
 #
 # Version:  C:/Program Files/Autodesk/Maya2022/plug-ins/xgen/
 # Author:   Hp
-# Date:     Thu Jan  4 14:30:39 2024
+# Date:     Thu Jan  4 14:38:55 2024
 
 FileVersion 18
 
@@ -45,32 +45,6 @@ PointGenerator
 	cullExpr		$a=0.0;#0.0,1.0\n$a
 	pointDir		${DESC}/Points/
 	ptLength		1.0
-	endAttrs
-
-GeometryRenderer
-	percent			100.0
-	startPercent		0.0
-	inCameraOnly		false
-	inCameraMargin		0.0
-	outputInstances		true
-	useWidthRamp		true
-	geometryType		0
-	shapeType		0
-	convertSelected		false
-	combineMesh		false
-	createStripJoints	false
-	stripJointPlacementType	0
-	jointNumOnStrip		3
-	createGuideJoints	false
-	guideJointPlacementType	0
-	jointNumOnGuide		3
-	meshOrientation		0
-	insertWidthSpan		false
-	widthSpanNum		1
-	curvature		0.500000
-	uvInTiles		true
-	uvLayoutType		0
-	uvTileSeparation	0.000000
 	endAttrs
 
 RendermanRenderer
@@ -121,6 +95,32 @@ RendermanRenderer
 	custom__arnold_useAuxRenderPatch	0
 	custom__arnold_auxRenderPatch	0
 	custom__arnold_multithreading	0
+	endAttrs
+
+GeometryRenderer
+	percent			100.0
+	startPercent		0.0
+	inCameraOnly		false
+	inCameraMargin		0.0
+	outputInstances		true
+	useWidthRamp		true
+	geometryType		0
+	shapeType		0
+	convertSelected		false
+	combineMesh		false
+	createStripJoints	false
+	stripJointPlacementType	0
+	jointNumOnStrip		3
+	createGuideJoints	false
+	guideJointPlacementType	0
+	jointNumOnGuide		3
+	meshOrientation		0
+	insertWidthSpan		false
+	widthSpanNum		1
+	curvature		0.500000
+	uvInTiles		true
+	uvLayoutType		0
+	uvTileSeparation	0.000000
 	endAttrs
 
 SplinePrimitive
@@ -278,7 +278,7 @@ Guides	Spline	16
 	CVs			4
 	-5.7137822932276650e-06 6.2584126787945782e-01 2.5814829414799734e-06
 	-1.1444723089906739e-05 1.2535619389657537e+00 5.1707180813431730e-06
-	-1.7158505382593170e-05 1.8794032068451962e+00 7.7522010356323445e-06
+	-1.7158505382537659e-05 1.8794032068451962e+00 7.7522010356323445e-06
 	id			60
 	loc			2.8372201323509216e-01 7.3401898145675659e-01 9753
 	blend			0.0000000000000000e+00
